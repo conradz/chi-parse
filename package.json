@@ -1,0 +1,28 @@
+{
+  "name": "chi-parse",
+  "version": "0.0.0",
+  "description": "Parse HTML source into a single DOM node",
+  "main": "index.js",
+  "scripts": {
+    "test": "hut-build test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conradz/chi-parse.git"
+  },
+  "keywords": [
+    "browser",
+    "dom",
+    "html",
+    "browserify"
+  ],
+  "author": "Conrad Zimmerman <me@conradz.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/conradz/chi-parse/issues"
+  },
+  "devDependencies": {
+    "tape": "~1.1.1",
+    "hut-build": "~0.1.5"
+  }
+}
