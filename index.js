@@ -1,13 +1,14 @@
 module.exports = parse;
 
-var TAG_MATCH = /^\s*<([a-zA-Z\-]+)(?:\s|>)/
+var TAG_MATCH = /^\s*<([a-zA-Z\-]+)(?:\s|>)/,
+    document = window.document;
 
 // Override container type for tags that can only be parsed in special
 // contexts.
 var parentTags = {
     'td': 'tr',
     'tr': 'tbody'
-}
+};
 
 function getTag(source) {
     var match = TAG_MATCH.exec(source);

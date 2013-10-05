@@ -4,7 +4,8 @@
   "description": "Parse HTML source into a single DOM node",
   "main": "index.js",
   "scripts": {
-    "test": "hut-build test"
+    "test": "hut-build test",
+    "lint": "hut-build lint"
   },
   "repository": {
     "type": "git",
