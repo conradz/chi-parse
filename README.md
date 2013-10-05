@@ -1,5 +1,12 @@
 # chi-parse
 
+[![NPM](https://nodei.co/npm/chi-parse.png?compact=true)](https://nodei.co/npm/chi-parse/)
+
+[![Build Status](https://drone.io/github.com/conradz/chi-parse/status.png)](https://drone.io/github.com/conradz/chi-parse/latest)
+[![Dependency Status](https://gemnasium.com/conradz/chi-parse.png)](https://gemnasium.com/conradz/chi-parse)
+
+[![Selenium Test Status](https://saucelabs.com/browser-matrix/chi-parse.svg)](https://saucelabs.com/u/chi-parse)
+
 Parse a string containing HTML into a single DOM node.
 
 It will take care of handling nodes that can only be parsed in certain
