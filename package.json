@@ -1,6 +1,6 @@
 {
   "name": "chi-parse",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parse HTML source into a single DOM node",
   "main": "index.js",
   "scripts": {
