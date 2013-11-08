@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = parse;
 
 var TAG_MATCH = /^\s*<([a-zA-Z\-]+)(?:\s|>)/,
